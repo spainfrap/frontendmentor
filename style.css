@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+}
+
+.component {
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  padding: 18px;
+  width: 280px;
+  min-height: 380px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 4px 4px 51px 0px rgba(34, 60, 80, 0.2);
+}
+
+.container img {
+  width: 245px;
+  height: 245px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 15px 0 20px 0;
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: 400;
+}
